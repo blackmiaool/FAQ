@@ -9,3 +9,6 @@ result.data[0].price就是了
 GET https://www.okex.com/v3/c2c/tradingOrders/book?t=1574598226250&side=sell&baseCurrency=usdt&quoteCurrency=cny&userType=certified&paymentMethod=all
 
 result.data.sell[0].price就是了
+
+### 3.用火币OTC接口
+GET https://otc-api.huobi.co/v1/data/market/detail
